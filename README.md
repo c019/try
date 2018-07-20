@@ -26,7 +26,7 @@ Unfortunately we have to include a `Finally` before a `Catch`. I have tried to f
 ```go
 import (
 	"fmt"
-	"github.com/manucorporat/try"
+	"github.com/c019/try"
 )
 
 func main() {
@@ -48,7 +48,7 @@ func main() {
 ```go
 import (
 	"fmt"
-	"github.com/manucorporat/try"
+	"github.com/c019/try"
 )
 
 func main() {
@@ -71,7 +71,7 @@ func main() {
 ```go
 import (
 	"fmt"
-	"github.com/manucorporat/try"
+	"github.com/c019/try"
 )
 
 func main() {
@@ -95,7 +95,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/manucorporat/try"
+	"github.com/c019/try"
 )
 
 func main() {
@@ -123,7 +123,7 @@ hey
 ```  
 
 ### Full covered with unit tests  
-* See [test_try.go](https://github.com/manucorporat/try/blob/master/try.go)  
+* See [test_try.go](https://github.com/c019/try/blob/master/try.go)  
 
 
 ## Different cases of try/catch/finally  
