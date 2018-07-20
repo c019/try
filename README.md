@@ -2,6 +2,22 @@
 # Try/Catch/Finally in Go
 Experiment in Golang that tries to bring the exception behaviour of Java/Python/C++ to Golang using the same syntax.  
 
+## Installation
+
+To install try package, you need to install Go and set your Go workspace first.
+
+1. Download and install it:
+
+```sh
+$ go get -u github.com/c019/try
+```
+
+2. Import it in your code:
+
+```go
+import "github.com/c019/try"
+```
+
 ## Experiment only!!
 I as a Go developer, do not recomend to use this library in production or real world code.
 The Go language was designed to do not use expections, instead use the explicit error management suggested in [Effective Go](http://golang.org/doc/effective_go.html). A good programmer MUST write idiomatic code.
